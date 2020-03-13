@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300&display=swap');
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+input, button {
+    border: 0;
+    outline: none;
+}
+
+button {
+    background: transparent;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+}

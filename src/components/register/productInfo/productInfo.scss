@@ -1,0 +1,35 @@
+@import '../../responsive-vars';
+
+#product-info {
+    position: absolute;
+    height: 100%;
+    width: 30%;
+    top: 0;
+    right: 0;
+    font-weight: bold;
+
+    .info-shade {
+        border-radius: 20px 0 0 0;
+        opacity: 0.5;
+    }
+
+    .info-title {
+        margin-top: 100px;
+        text-align: center;
+        font-size: $full-screen-title-font-size;
+    }
+}
+
+@media only screen and (max-width: $tablet-max-width) {
+    #product-info {
+        .info-title {
+            font-size: $tablet-title-font-size;
+        }
+    }
+}
+
+@media only screen and (max-width: $mobile-max-width) {
+    #product-info {
+        display: none;
+    }
+}

@@ -1,0 +1,42 @@
+@import '../../responsive-vars';
+
+.header {
+    padding: 44px 0 0 44px;
+    font-size: $full-screen-title-font-size;
+
+    .btn-back {
+        display: inline-flex;
+
+        .arrow-back {
+            font-size: calc(#{$full-screen-title-font-size} + 10px);
+        }
+    }
+
+    .btn-back:hover {
+        color: #bfbfbf;
+    }
+}
+
+@media only screen and (max-width: $tablet-max-width) {
+    .header {
+        font-size: $tablet-title-font-size;
+
+        .btn-back {
+            .arrow-back {
+                font-size: calc(#{$tablet-title-font-size} + 10px);
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: $mobile-max-width) {
+    .header {
+        font-size: $mobile-title-font-size;
+
+        .btn-back {
+            .arrow-back {
+                font-size: calc(#{$mobile-title-font-size} + 10px);
+            }
+        }
+    }
+}
